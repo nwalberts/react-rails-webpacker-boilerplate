@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (reactElement) {
     ReactDOM.render(
-      <h1>Boo yaa</h1>,
+      <h1>Hello from React-Rails (webpacker) Boilerplate</h1>,
       reactElement
     )
   }

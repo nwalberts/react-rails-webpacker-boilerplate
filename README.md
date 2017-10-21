@@ -1,24 +1,12 @@
-# README
+This is a React-Rails webpacker boilerplate w/ Postgress. Config is done for you.
+Setup commands
+- `bundle` should do the trick
+- `npm install` if you need to install new node modules
+- `rake db:create && rake db:migrate` to setup your DB
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Server commands
+- `rails server`
+- `npm start` (separate tab)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Honestly, config is easy enough that you should just be doing `rails new...` with a webpacker configuration.
+Shout out to enthusiastick for showing me the ropes. 
